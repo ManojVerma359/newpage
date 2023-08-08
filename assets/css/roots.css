@@ -1,0 +1,51 @@
+:root {
+    /* font-size */
+    --fs-ms:12px;
+    --fs-sm: 18px;
+    --fs-md: 20px;
+    --fs-lg: 24px;
+    --fs-xl: 36px;
+    --fs-2xl: 48px;
+    --fs-2xxl: 64px;
+  
+    /* font-weight */
+    --fw-sm-300: 300;
+    --fw-md-400: 400;
+    --fw-lg-500: 500;
+    --fw-xl-600: 600;
+    --fw-2xl-700: 700;
+}  
+.fs-sm-400{
+    font-size: var(--fs-ms);
+    font-weight: var(--fw-sm-300);
+}
+
+
+.fs-xl-700{
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-2xl-600);
+}
+.fs-sm-700{
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-xl-600);
+}
+.fs-ms-600{
+    font-size: var(--fs-ms);
+    font-weight: var(--fw-xl-600);
+}
+.fs-ms-400{
+    font-size: var(--fs-ms);
+    font-weight: var(--fw-md-400);
+}
+
+@media (min-width:768px) {
+    .fs-xl-700{
+        font-size: var(--fs-xl);
+        font-weight: var(--fw-2xl-700);
+    }
+    .fs-sm-400{
+        font-size: var(--fs-sm);
+        font-weight: var(--fw-md-400);
+    }
+    
+}
