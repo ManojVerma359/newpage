@@ -247,6 +247,9 @@ input:checked + .slider:before {
 .slick-next {
    right: 0px !important;
 }
+
+
+
 @media (max-width: 991px) {
   label[for="menu"]{
     width: 21px;
