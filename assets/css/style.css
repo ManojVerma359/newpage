@@ -267,7 +267,7 @@ dl, ol, ul {
     cursor: pointer;
     display: flex;
     position: absolute;
-    top: 2%;
+    top: 3%;
     left: 5%;
     justify-content: space-between;
     flex-direction: column;
